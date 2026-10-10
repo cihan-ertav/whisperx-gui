@@ -1,0 +1,31 @@
+# Sanal Ortam (En kritik olan, GB'larca veriyi engeller)
+.venv/
+venv/
+env/
+
+# IDE & Editör Ayarları
+.idea/
+.vscode/
+
+# Python Önbellek Dosyaları
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Test veya Giriş/Çıkış Ses Dosyaları
+*.wav
+*.mp3
+*.m4a
+*.flac
+*.aac
+*.ogg
+
+# Üretilen Transkript ve Çıktı Dosyaları
+*_diyalog.txt
+*.txt.bak
+*.log
+
+# İndirilen Model Ağırlıkları Önbelleği (Varsa)
+models/
+.cache/
